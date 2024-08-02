@@ -1,0 +1,42 @@
+{
+    "development": {
+      "username": "root",
+      "password": "",
+      "database": "node_sql_todo",
+      "host": "localhost",
+      "dialect": "mysql",
+      "pool": {
+        "max": 5,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 10000
+      }
+    },
+    "test": {
+      "username": "root",
+      "password": "",
+      "database": "node_sql_todo_test",
+      "host": "localhost",
+      "dialect": "mysql",
+      "pool": {
+        "max": 5,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 10000
+      }
+    },
+    "production": {
+      "username": "root",
+      "password": "",
+      "database": "node_sql_todo_production",
+      "host": "localhost",
+      "dialect": "mysql",
+      "pool": {
+        "max": 5,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 10000
+      }
+    }
+  }
+  
